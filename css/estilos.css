@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav .menu {
+  background-color: blue;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header nav .menu li {
+  padding: 10px;
+  margin: 10px;
+}
+header nav .menu li a {
+  color: burlywood;
+  text-decoration: none;
+  padding: 20px;
+}
+header nav .menu li a:hover {
+  background-color: navy;
+  color: burlywood;
+}
+
+main .empresa {
+  width: 90%;
+  margin: auto;
+}
+main .empresa .titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: navy;
+  font-size: 2rem;
+  padding: 50px 0;
+}
+main .empresa .texto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+}
+main .empresa img {
+  width: 100%;
+}
+
+footer .pie {
+  background-color: navy;
+  width: 90%;
+  margin: 50px auto 0;
+  height: 50px;
+}/*# sourceMappingURL=estilos.css.map */

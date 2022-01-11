@@ -1,20 +1,33 @@
-main{
-    .empresa{
+main {
+    .empresa {
         width: 90%;
         margin: auto;
-        .titulo{
+        .titulo {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: $bg_oscuro;
             font-size: 2rem;
             padding: 50px 0;
         }
-        .texto{
+        .texto {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1.5rem;
             padding-bottom: 50px;
         }
-        img{
+        img {
             width: 100%;
+        }
+    }
+    
+    .ejemplo {
+        .caja_1,
+        .caja_2,
+        .caja_3,
+        .caja_4 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            padding: 50px 0;
+            width: 90%;
+            margin: auto;
         }
     }
 }

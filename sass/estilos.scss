@@ -4,5 +4,30 @@
 @import "main";
 @import "footer";
 
+$bg: #7180d3;
+$color1: yellow;
+$color2: green;
+$color3: blue;
+$color4: red;
 
+@mixin estiloCaja ($color, $bg){
+    background-color: $bg;
+    color: $color;
+}
+
+.caja_1{
+    @include estiloCaja($color1, $bg);
+}
+
+.caja_2{
+    @include estiloCaja($color2, $bg);
+}
+
+.caja_3{
+    @include estiloCaja($color3, $bg);
+}
+
+.caja_4{
+    @include estiloCaja($color4, $bg);
+}
 
